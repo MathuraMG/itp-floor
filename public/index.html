@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>DWD Week1</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/main.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:700,400,100' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/d3/2.10.0/d3.v2.min.js "></script>
+    <script src="https://d3js.org/d3-time-format.v2.min.js"></script>
+    <script src="data.js"></script>
+  </head>
+
+  <body>
+
+    <h1 class="pageHeading"> ITP Floor Data </h1>
+    <!-- <h3 class="pageSubHeading">March 4- March 11</h3> -->
+    <img class="floormap-image" src="/assets/floormap.png"></img>
+    <section class="visualtisations">
+      <div class="allIndexButtons"></div>
+      <div class="vis-container">
+        <svg id="visualisation" ></svg>
+      </div>
+
+    </section>
+    <!--
+    <button class="pastEnergyDataButton">Past Data</button>
+  -->
+
+    <section class="perEquipmentNumber">
+      <div class="equipmentDetails" "equipmentDetailsHeadings">
+        <div class="equipmentName equipmentDetailsHeadings">
+          Equipment
+        </div>
+        <div class="equipmentEnergy equipmentDetailsHeadings">
+          Total Energy(kWh)
+        </div>
+        <div class="equipmentEnergy equipmentDetailsHeadings">
+          Avg. Power(W)
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- <h1 class="pageHeading"> .. stays in the shop </h1> -->
+  </body>
+</html>

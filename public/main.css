@@ -1,0 +1,165 @@
+
+section{
+  display:inline-block;
+  width: 90%;
+  margin: 7% 5%;
+}
+/* Style for heading for main page */
+
+.pageHeading {
+  display: block;
+  margin: 2% auto;
+  font-family: Raleway;
+  font-weight: 100;
+  text-align: center;
+}
+.pageSubHeading {
+  display: block;
+  margin: 2% auto;
+  font-family: Raleway;
+  font-weight: 100;
+  text-align: center;
+}
+
+.pieChart {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: .5em;
+}
+.x-axis text {
+  font-family: Raleway;
+  font-size: 11px;
+}
+.y-axis text {
+  font-family: Raleway;
+  font-size: 11px;
+}
+.indexElements {
+  display: block;
+  border-radius: 5px;
+  margin-top: 10px;
+  width: 100%;
+  font-family: Raleway;
+  font-size: 0.7em;
+  height: 3em;
+  background: #ffffff;
+}
+#visualisation {
+  display: inline-block;
+  width: 800%;
+  height: 1000px;
+  vertical-align: top;
+}
+.graphPath {
+  display: block;
+}
+
+.graphText {
+  font-family: Raleway;
+  font-size: 0.5em;
+  font-weight: 700;
+  display: 'block';
+}
+.allIndexButtons {
+  width: 10%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.pastEnergyDataButton {
+
+}
+
+.pieChart {
+  display: inline-block;
+  vertical-align:top;
+  width: 80%;
+}
+
+.pieChartCover {
+  width: 45%;
+  margin-top: 10px;
+  display: inline-block;
+  padding: 0 2%;
+}
+
+.pieChartNumbers {
+  display: inline-block;
+  vertical-align:top;
+  border-left: solid 1px #888888;
+  font-size: 3em;
+  font-weight: 100;
+  width: 15%;
+  height: 100%;
+  line-height: 432px;
+  padding-left: 3%;
+}
+
+.energyPieChart {
+  display: inline;
+}
+
+.totalEnergyNumbers {
+
+}
+
+/********************************
+FOR THE INFOGRAPH SECTION
+********************************/
+.numberOfBulbsInfograph {
+  /*margin:10px 10%;*/
+}
+.bulbImage {
+  width:3%;
+  padding:0.5% 0.5%;
+  opacity: 0.5;
+}
+
+/********************************
+FOR THE EQUIPMENT NUMBERS
+********************************/
+
+.equipmentDetails {
+  display:inline-block;
+  width: 100%;
+  padding: 5px 0;
+  font-size: 1.2em;
+  font-family: Raleway;
+  border-bottom: solid 1px #888888;
+}
+
+.equipmentName {
+  display:inline-block;
+  width: 33%;
+  vertical-align: middle;
+  font-weight: 400;
+  text-align: center;
+}
+
+.equipmentEnergy {
+  display:inline-block;
+  width: 33%;
+  vertical-align: middle;
+  text-align: center;
+  font-weight: 100;
+}
+
+.equipmentDetailsHeadings{
+  font-size: 1.1em;
+  font-weight: 700;
+}
+
+.visualtisations {
+  display: flex;
+  flex-direction: row;
+}
+
+.vis-container {
+  width: 80%;
+  overflow-x: scroll;
+}
+
+.floormap-image {
+  width: 60%;
+  padding-left: 20%;
+}

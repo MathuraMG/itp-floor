@@ -1,0 +1,30 @@
+html
+{
+  height:100%;
+}
+body
+{
+  background: #fff3e6;
+  height: 100%;
+}
+a
+{
+  font-family: Raleway;
+}
+p
+{
+  font-family: Raleway;
+}
+div
+{
+  font-family: Raleway;
+}
+hr
+{
+  box-shadow: 1px 1px 10px #888888;
+}
+
+section img
+{
+  width:100%;
+}
